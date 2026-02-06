@@ -1,177 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مطعم طاسة وشواية | مشويات</title>
-
-<style>
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    font-family: "Segoe UI", Tahoma, Arial;
-    direction: rtl;
-    background: #f5f5f5;
-    color: #333;
-}
-header {
-    background: linear-gradient(to left, #b71c1c, #e53935);
-    color: #fff;
-    padding: 30px 15px;
-    text-align: center;
-}
-header h1 {
-    margin: 0;
-    font-size: 32px;
-}
-header p {
-    margin-top: 8px;
-    font-size: 16px;
-}
-
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-}
-
-.section {
-    background: #fff;
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-.section h2 {
-    color: #b71c1c;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 8px;
-}
-
-.menu-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px dashed #ddd;
-}
-.menu-item:last-child {
-    border-bottom: none;
-}
-
-.price {
-    font-weight: bold;
-    color: #2e7d32;
-}
-
-.offer {
-    background: #fff8e1;
-    border: 2px solid #ffc107;
-}
-
-.offer p {
-    margin: 10px 0;
-    font-weight: bold;
-}
-
-.buttons {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-.btn {
-    flex: 1;
-    text-align: center;
-    padding: 15px;
-    background: #2e7d32;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 18px;
-}
-.btn.call {
-    background: #1976d2;
-}
-
-footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>🍗 مطعم طاسة وشواية</h1>
-    <p>مشويات على الفحم – جودة وطعم يفرّق 🔥</p>
-</header>
-
-<div class="container">
-
-    <div class="section">
-        <h2>🍗 الفراخ المشوية</h2>
-        <div class="menu-item"><span>فرخة مشوية حجم كبير</span><span class="price">340 جنيه</span></div>
-        <div class="menu-item"><span>نصف فرخة حجم كبير</span><span class="price">170 جنيه</span></div>
-        <div class="menu-item"><span>ربع فرخة حجم كبير</span><span class="price">90 جنيه</span></div>
-        <div class="menu-item"><span>فرخة مشوية حجم متوسط</span><span class="price">220 جنيه</span></div>
-        <div class="menu-item"><span>نصف فرخة حجم متوسط</span><span class="price">110 جنيه</span></div>
-        <div class="menu-item"><span>ربع فرخة حجم متوسط</span><span class="price">60 جنيه</span></div>
-    </div>
-
-    <div class="section">
-        <h2>🍢 كفتة فراخ</h2>
-        <div class="menu-item"><span>كيلو كفتة فراخ</span><span class="price">250 جنيه</span></div>
-        <div class="menu-item"><span>نصف كيلو كفتة فراخ</span><span class="price">125 جنيه</span></div>
-    </div>
-
-    <div class="section">
-        <h2>🍗 شيش طاووق</h2>
-        <div class="menu-item"><span>كيلو شيش طاووق مشوي</span><span class="price">300 جنيه</span></div>
-        <div class="menu-item"><span>نصف كيلو شيش طاووق</span><span class="price">150 جنيه</span></div>
-    </div>
-
-    <div class="section">
-        <h2>🥩 الكفتة البلدي</h2>
-        <div class="menu-item"><span>كيلو كفتة بلدي</span><span class="price">500 جنيه</span></div>
-        <div class="menu-item"><span>نصف كيلو كفتة بلدي</span><span class="price">250 جنيه</span></div>
-    </div>
-
-    <div class="section">
-        <h2>🥙 الحواوشي</h2>
-        <div class="menu-item"><span>حواوشي لحمة</span><span class="price">40 جنيه</span></div>
-        <div class="menu-item"><span>حواوشي فراخ</span><span class="price">30 جنيه</span></div>
-    </div>
-
-    <div class="section offer">
-        <h2>🔥 العروض</h2>
-        <p>✔ فرخة مشوية كاملة + سلطة + طحينة + عيش + نص فرخة هدية — 320 جنيه</p>
-        <p>✔ فرخة كاملة + نص كفتة فراخ هدية — 320 جنيه</p>
-        <p>✔ كيلو شيش طاووق + بطاطس + نص كفتة فراخ هدية — 340 جنيه</p>
-        <p>✔ 5 كيلو وراك مشوي — 500 جنيه</p>
-        <p>✔ نص فرخة مشوية + ربع كفتة فراخ هدية — 150 جنيه</p>
-    </div>
-
-    <div class="section">
-        <h2>📞 اطلب دلوقتي</h2>
-        <div class="buttons">
-            <a class="btn" href="https://wa.me/201001696765">📲 واتساب</a>
-            <a class="btn call" href="tel:01001696765">📞 اتصال</a>
-        </div>
-    </div>
-
-</div>
-
-<footer>
-    <p>© مطعم طاسة وشواية – جميع الحقوق محفوظة</p>
-    <p>بالهنا والشفا ❤️</p>
-</footer>
-
-</body>
-</html>
